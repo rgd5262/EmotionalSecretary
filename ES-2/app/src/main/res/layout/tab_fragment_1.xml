@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gumi"
+        android:id="@+id/local"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:src="@drawable/umbrella"
+        android:id="@+id/umbrella"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/rainfall" />
+
+    <TextView
+        android:text="40%"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rainfall"
+        android:layout_above="@+id/line"
+        android:layout_toEndOf="@+id/umbrella" />
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:id="@+id/weatherKind"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_width="150dp"
+        android:layout_above="@+id/activityName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/temperature"
+        android:layout_above="@+id/line"
+        android:layout_alignRight="@id/weatherKind"
+        android:layout_marginRight="15dp"
+        android:textAlignment="textStart"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line"
+        android:id="@+id/line"
+        android:layout_above="@+id/activity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:src="@drawable/activityname"
+        android:id="@+id/activityName"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="82dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/umbrella"
+        android:layout_toEndOf="@+id/umbrella"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+
+    <ImageView
+        android:id="@+id/activityText"
+        android:layout_height="100dp"
+        android:layout_width="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/activityName"
+        android:layout_alignStart="@+id/activityName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <ImageView
+        android:id="@+id/activity"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/weatherKind"
+        android:layout_alignLeft="@+id/weatherKind"
+        android:layout_alignStart="@+id/weatherKind"
+        android:layout_marginTop="11dp" />
+
+    <ImageView
+
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:maxHeight="1000dp"
+        android:maxWidth="1000dp"
+
+        android:src="@drawable/weather"
+        android:id="@+id/weather"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_above="@+id/weatherKind"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

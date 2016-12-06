@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ToggleButton
+        android:id="@+id/monButton"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/xml_monday"
+        android:scaleType="fitCenter"
+        />
+
+    <ToggleButton
+        android:id="@+id/TuesButton"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:textOn=""
+        android:textOff=""
+        android:scaleType="fitCenter"
+        android:background="@drawable/xml_tuesday" />
+
+    <ToggleButton
+        android:id="@+id/WedButton"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:textOn=""
+        android:textOff=""
+        android:scaleType="fitCenter"
+        android:background="@drawable/xml_wednesday" />
+
+    <ToggleButton
+        android:id="@+id/ThurButton"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:textOn=""
+        android:textOff=""
+        android:scaleType="fitCenter"
+        android:background="@drawable/xml_tursday" />
+
+    <ToggleButton
+        android:id="@+id/FriButton"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:textOn=""
+        android:textOff=""
+        android:scaleType="fitCenter"
+        android:background="@drawable/xml_friday" />
+
+    <ToggleButton
+        android:id="@+id/SatButton"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:textOn=""
+        android:textOff=""
+        android:scaleType="fitCenter"
+        android:background="@drawable/xml_saturday" />
+
+    <ToggleButton
+        android:id="@+id/SunButton"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:textOn=""
+        android:textOff=""
+        android:scaleType="fitCenter"
+        android:background="@drawable/xml_sunday" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Nago\\Desktop\\ES-2\\DateTimePicker\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_done_background_color_dark.xml",
+        "source": "C:\\Users\\Nago\\Desktop\\ES-2\\DateTimePicker\\src\\main\\res\\drawable\\mdtp_done_background_color_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nago\\Desktop\\ES-2\\DateTimePicker\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_material_button_background.xml",
+        "source": "C:\\Users\\Nago\\Desktop\\ES-2\\DateTimePicker\\src\\main\\res\\drawable\\mdtp_material_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nago\\Desktop\\ES-2\\DateTimePicker\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_material_button_selected.xml",
+        "source": "C:\\Users\\Nago\\Desktop\\ES-2\\DateTimePicker\\src\\main\\res\\drawable\\mdtp_material_button_selected.xml"
+    }
+]
